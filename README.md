@@ -3,5 +3,5 @@
 #### Authors: Lianping Wu, Tian Guo  
 #### Supervised by Prof. Teng Li  
 
-Requirements includes pytorch, numpy, scikit-learn, and matplotlib.  
+Requirements include pytorch, numpy, scikit-learn, and matplotlib.  
 
