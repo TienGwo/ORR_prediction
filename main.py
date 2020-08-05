@@ -64,7 +64,6 @@ if __name__ == "__main__":
             predicts.append(outputs)
     
     # ========== print & save results ==========
-    print(error_flag_train, error_flag_test) 
     plot_training_rst(train_error, test_error) 
     np.savetxt(save_path+"ML_results_"+flag+"_preditions.txt", np.array(predicts)) 
     np.savetxt(save_path+"sav/ML_results_"+flag+"_train.txt", np.array(train_eval)) 
